@@ -1,4 +1,4 @@
-# CNOT_gate_implementation_with_Grape
+# CNOT Gate Implementation on Silicon Spin System Using GRAPE Algorithm"
 
 To implement the CNOT gate on silicon spin systems, we utilized the GRAPE algorithm with QUTIP. 
 The system consists of two phosphorus nuclei and one shared electron between them (2P1e). 
