@@ -3,10 +3,10 @@ message: "If you use this software, please cite it as below."
 authors:
 - family-names: "Üstün"
   given-names: "Gözde"
-- family-names: "Andrea"
-  given-names: "Morello"
-- family-names: "Simon"
-  given-names: "Devitt" 
+- family-names: "Morello"
+  given-names: "Andrea"
+- family-names: "Devitt"
+  given-names: "Simon" 
 title: "CNOT Gate Implementation on Silicon Spin System Using GRAPE Algorithm"
 version: 1.0.0
 date-released: 2023-04-14
