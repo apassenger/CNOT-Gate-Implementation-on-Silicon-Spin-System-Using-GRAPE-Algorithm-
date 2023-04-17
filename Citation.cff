@@ -7,6 +7,8 @@ authors:
   given-names: "Andrea"
 - family-names: "Devitt"
   given-names: "Simon" 
+- family-names: "Pitchford"  
+  given-names: " Alexander"
 title: "CNOT Gate Implementation on Silicon Spin System Using GRAPE Algorithm"
 version: 1.0.0
 date-released: 2023-04-14
