@@ -63,7 +63,7 @@ evo_time = 1e-6 #1 microsecond for making a pulse for X gate #0.5e-5
 # Number of time slots
 n_ts = 100000 #this will make the time resolution in the picoseconds range. In this case: 1e-6/400000=10 picoseconds
               # The minimum number_of_time_slot for this hamiltonain is 10000 and then we can use higher depending on the gate evolution time. 
-              # Less than 10000 number of time slot will not give us the correct solution
+              # Less than 10000 number of time slot will not give us the correct solution for this Hamiltonian/example
 times = np.linspace(0, evo_time, n_ts) 
 #initail_pulse=B1*np.array([ np.sin(gamma_n*B0*times*np.pi/4.0+phi*np.pi/2.0)  for phi in range(len(H_c))]) #this is my initial pulse guess
 w=B0*gamma_E  
