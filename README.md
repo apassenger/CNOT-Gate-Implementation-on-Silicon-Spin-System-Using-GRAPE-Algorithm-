@@ -22,3 +22,31 @@ P.S Another solution for implementing a CNOT gate without having to wait for a l
 For instance, if we are implementing a CNOT gate between the electron and the down state of the nuclei, we can bring the second nucleus to the 
 down state as well, so that they cannot interfere with each other. However, this method goes against the universality of computation, 
 where we should be able to implement gates perfectly and independently of the states of the system.
+
+
+If you use the code, please cite the software and the paper.
+For paper:
+
+@misc{üstün2023singlestep,
+      title={Single-Step Parity Check Gate Set for Quantum Error Correction}, 
+      author={Gözde Üstün and Andrea Morello and Simon Devitt},
+      year={2023},
+      eprint={2306.08849},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph}
+}
+
+For software:
+
+Üstün, G., Morello, A., Devitt, S., & Pitchford, A. (2023). CNOT Gate Implementation on Silicon Spin System Using GRAPE Algorithm (Version 1.0.0) [Computer software]. https://github.com/apassenger/CNOT_gate_implementation_with_Grape
+or 
+@software{Ustun_CNOT_Gate_Implementation_2023,
+author = {Üstün, Gözde and Morello, Andrea and Devitt, Simon and Pitchford,  Alexander},
+month = apr,
+title = {{CNOT Gate Implementation on Silicon Spin System Using GRAPE Algorithm}},
+url = {https://github.com/apassenger/CNOT_gate_implementation_with_Grape},
+version = {1.0.0},
+year = {2023}
+}
+
+Citation will not take anything from your work !
