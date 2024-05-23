@@ -27,13 +27,19 @@ where we should be able to implement gates perfectly and independently of the st
 If you use the code, please cite the software and the paper.
 For paper:
 
-@misc{üstün2023singlestep,
-      title={Single-Step Parity Check Gate Set for Quantum Error Correction}, 
-      author={Gözde Üstün and Andrea Morello and Simon Devitt},
-      year={2023},
-      eprint={2306.08849},
-      archivePrefix={arXiv},
-      primaryClass={quant-ph}
+@article{Üstün_2024,
+doi = {10.1088/2058-9565/ad473c},
+url = {https://dx.doi.org/10.1088/2058-9565/ad473c},
+year = {2024},
+month = {may},
+publisher = {IOP Publishing},
+volume = {9},
+number = {3},
+pages = {035037},
+author = {Gözde Üstün and Andrea Morello and Simon Devitt},
+title = {Single-step parity check gate set for quantum error correction},
+journal = {Quantum Science and Technology},
+abstract = {A key requirement for an effective quantum error correction (QEC) scheme is that the physical qubits have error rates below a certain threshold. The value of this threshold depends on the details of the specific QEC scheme, and its hardware-level implementation. This is especially important with parity-check circuits, which are the fundamental building blocks of QEC codes. The standard way of constructing the parity check circuit is using a universal set of gates, namely sequential CNOT gates, single-qubit rotations and measurements. We exploit the insight that a QEC code does not require universal logic gates, but can be simplified to perform the sole task of error detection and correction. By building gates that are fundamental to QEC, we can boost the threshold and ease the experimental demands on the physical hardware. We present a rigorous formalism for constructing and verifying the error behavior of these gates, linking the physical measurement of a process matrix to the abstract error models commonly used in QEC analysis. This allows experimentalists to directly map the gates used in their systems to thresholds derived for a broad-class of QEC codes. We give an example of these new constructions using the model system of two nuclear spins, coupled to an electron spin, showing the potential benefits of redesigning fundamental gate sets using QEC primitives, rather than traditional gate sets reliant on simple single and two-qubit gates.}
 }
 
 For software:
